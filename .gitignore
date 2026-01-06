@@ -1,0 +1,23 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Generated Data
+data/chroma_db/
+data/*.db
+data/agent_state.db-shm
+data/agent_state.db-wal
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+docs/
+v2/
+tests/
