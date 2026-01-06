@@ -159,6 +159,7 @@ See [architecture/ARCHITECTURE.md](architecture/ARCHITECTURE.md) for detailed sy
 - **Local Vector Store**: ChromaDB is running locally. In a production environment, a persistent server-based vector database would be preferred.
 - **Session History**: The agent is stateless per request; no thread/conversation continuity yet.
 - **Automated Tests**: Integration/end-to-end tests are not implemented/run; test coverage is effectively absent for this submission.
+- **Feedback Flow**: Feedback endpoint is stubbed; only DB scripts exist—no end-to-end feedback handling or surfacing.
 
 ### What I Would Improve
 
